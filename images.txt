@@ -1,7 +1,12 @@
 debian
+consul:1.15
+mongo
 mysql
-alpine
-python:alpine3.19
-kasmweb/nginx:1.25.3
---platform=linux/amd64 redis:7.0.15-alpine3.20
---platform=linux/arm/v7 redis:7.0.15-alpine3.20
+redis
+gitlab/gitlab-ce
+grafana/grafana
+nginx
+registry
+rundeckpro/enterprise:3.1.2
+rundeck/rundeck:3.1.2
+cptactionhank/atlassian-confluence:6.10.0
